@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patio: false
+  daily_pic: false
+  pets_on_bed: false
+  pets_on_sofas: false
+  emergency_car: false
+  children: false
+  home_id: 1
+
+two:
+  patio: false
+  daily_pic: false
+  pets_on_bed: false
+  pets_on_sofas: false
+  emergency_car: false
+  children: false
+  home_id: 1

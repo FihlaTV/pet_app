@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  type: 
+  rate: 9.99
+  rate_unit: MyString
+  business_unit_id: MyString
+
+two:
+  type: 
+  rate: 9.99
+  rate_unit: MyString
+  business_unit_id: MyString
