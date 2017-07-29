@@ -19,7 +19,7 @@ owner_user.business_unit.create_home(smoking: false, square_feet: 500)
 
 #SERVICE
 dog_walking = Service.create(title: 'walking', rate_unit: 'hour')
-owner_user.business_unit.business_services.build(service_id: 1).save
+owner_user.business_unit.business_services.build(service_id: 1  ).save
 
 #PET_OWNER
 guest_user = User.create(firstname: 'Test', lastname: 'Name', email: 'test@gmail.com')
