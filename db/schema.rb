@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20170724210558) do
+ActiveRecord::Schema.define(version: 20170805201125) do
 
   create_table "amenities", force: :cascade do |t|
     t.boolean  "patio",         default: false
@@ -104,16 +104,6 @@ ActiveRecord::Schema.define(version: 20170724210558) do
     t.string   "title"
     t.decimal  "suggested_rate"
     t.decimal  "minimum_rate"
-  end
-
-  create_table "users", force: :cascade do |t|
-    t.string   "firstname"
-    t.string   "lastname"
-    t.string   "email"
-    t.string   "password_digest"
-    t.boolean  "sitter",          default: false
-    t.datetime "created_at",                      null: false
-    t.datetime "updated_at",                      null: false
   end
 
 end
