@@ -6,7 +6,8 @@ class User < ApplicationRecord
   has_many :reservations, foreign_key: :guest_id
   has_many :owners, through: :reservations
   has_many :reviews, foreign_key: :guest_id
-  
+  validates :auth_token, uniqueness: true
+
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
 end
