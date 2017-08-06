@@ -80,7 +80,6 @@ ActiveRecord::Schema.define(version: 20170805201413) do
   create_table "reservations", force: :cascade do |t|
     t.date     "checkin"
     t.date     "checkout"
-    t.integer  "business_unit_id"
     t.integer  "guest_id"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false

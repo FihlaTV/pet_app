@@ -3,5 +3,6 @@ Rails.application.routes.draw do
    namespace :api do 
     resources :business_units
     resources :cities
+    resources :users, only: [:show, :create]
   end
 end
